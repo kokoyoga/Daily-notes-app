@@ -77,14 +77,6 @@ Untuk backend bisa deploy ke:
 
 ---
 
-## 🔍 SEO Tips (Sudah Diterapkan)
-
-- Nama repo mengandung kata kunci: `catatan`, `harian`, `notes-app`
-- README sudah mengandung keyword seperti `react notes app`, `hapi.js`, `daily notes`, `mern-style`.
-- Deskripsi repository telah disesuaikan.
-
----
-
 ## 🙋‍♂️ Tentang Saya
 
 **Koko Yoga Adhitya**
