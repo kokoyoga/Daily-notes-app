@@ -1,71 +1,63 @@
+# 📝 Catatan Harian - Daily Notes App
 
-# 📝 Daily Notes — Fullstack App (React + Hapi.js)
+![GitHub Repo stars](https://img.shields.io/github/stars/kokoyoga/catatan-harian?style=social)
+![GitHub forks](https://img.shields.io/github/forks/kokoyoga/catatan-harian?style=social)
 
-Hi! This is a simple **Daily Notes** application built with **React + Vite** on the frontend and **Hapi.js** on the backend. The app allows users to create, edit, and delete personal notes, with support for tags.
+A simple and clean daily note-taking application built with **React**, **Hapi.js**, and **Tailwind CSS**.
+This project allows you to create, update, and delete personal notes easily.
 
----
+> 🚀 Fullstack Project using MERN-style architecture: Hapi.js backend + React frontend + Axios
 
-## 🔧 Tech Stack
+## ✨ Fitur Utama
 
-| Frontend        | Backend       | Others         |
-|-----------------|---------------|----------------|
-| React + Vite    | Hapi.js       | Axios          |
-| TailwindCSS     | Node.js       | UUID           |
-| Shadcn/UI       | RESTful API   | Nodemon        |
-
----
-
-## 🚀 Features
-
-✅ Create notes with title, content, and tags  
-✅ Edit notes easily  
-✅ Delete notes  
-✅ Tag system (comma-separated)  
-✅ Clean, responsive UI  
-✅ Modular backend with good structure  
+- Tambah catatan dengan judul, tag, dan isi
+- Edit dan hapus catatan
+- Tampilan responsif dan minimalis dengan Tailwind CSS
+- Backend API dengan Hapi.js RESTful routes
 
 ---
 
-## 📁 Project Structure
+## 📸 Screenshot
 
-```
-/project-root
-│
-├── backend/
-│   ├── index.js
-│   ├── routes/
-│   └── handlers/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── vite.config.js
-│
-└── README.md
-```
+| Form Tambah Catatan             | Daftar Catatan                  |
+| ------------------------------- | ------------------------------- |
+| ![Form](./screenshots/form.png) | ![List](./screenshots/list.png) |
 
 ---
 
-## 🔄 How to Run the Project
+## ⚙️ Teknologi yang Digunakan
 
-### 1. Clone the repository
+### Frontend
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+
+### Backend
+
+- [Hapi.js](https://hapi.dev/)
+- [Nodemon](https://github.com/remy/nodemon)
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/daily-notes.git
-cd daily-notes
+git clone https://github.com/kokoyoga/catatan-harian.git
+cd catatan-harian
 ```
 
-### 2. Run the Backend
+### 2. Jalankan Backend
 
 ```bash
 cd backend
 npm install
-npm run dev
+npm run start
 ```
 
-The backend server runs on `http://localhost:3000`
-
-### 3. Run the Frontend
+### 3. Jalankan Frontend
 
 ```bash
 cd frontend
@@ -73,21 +65,44 @@ npm install
 npm run dev
 ```
 
-The frontend will be served at `http://localhost:5173`
+Aplikasi akan tersedia di `http://localhost:5173` (Vite) dan backend berjalan di `http://localhost:3000`.
 
 ---
 
-## 🧠 Notes
+## 🌐 Deploy
 
-- This project was created as a personal fullstack learning exercise.
-- UI is styled using `shadcn/ui` component library and TailwindCSS.
-- Future improvements: authentication, database storage, tag filtering.
+Kamu bisa deploy frontend ke:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- Atau GitHub Pages (jika pakai static build)
+
+Untuk backend bisa deploy ke:
+
+- [Render](https://render.com/)
+- [Railway](https://railway.app/)
+- [Glitch](https://glitch.com/)
 
 ---
 
-## 📬 Contact
+## 🔍 SEO Tips (Sudah Diterapkan)
 
-If you like this project or want to collaborate, feel free to star ⭐ the repo or reach out:
+- Nama repo mengandung kata kunci: `catatan`, `harian`, `notes-app`
+- README sudah mengandung keyword seperti `react notes app`, `hapi.js`, `daily notes`, `mern-style`.
+- Deskripsi repository telah disesuaikan.
 
-📧 Email: kokoyogaadhitya1997@gmail.com  
-🔗 LinkedIn: [Koko Yoga Adhitya](https://www.linkedin.com/in/koko-yoga-adhitya/)
+---
+
+## 🙋‍♂️ Tentang Saya
+
+**Koko Yoga Adhitya**
+📧 [kokoyogaadhitya1997@gmail.com](mailto:kokoyogaadhitya1997@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/koko-yoga-adhitya/)
+
+Terima kasih sudah melihat project saya! Jangan lupa ⭐️ repo ini jika kamu suka 🙌
+
+---
+
+## 📄 Lisensi
+
+MIT License © 2025 Koko Yoga Adhitya
