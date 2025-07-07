@@ -17,14 +17,6 @@ This project allows you to create, update, and delete personal notes easily.
 
 ---
 
-## 📸 Screenshot
-
-| Form Tambah Catatan             | Daftar Catatan                  |
-| ------------------------------- | ------------------------------- |
-| ![Form](./screenshots/form.png) | ![List](./screenshots/list.png) |
-
----
-
 ## ⚙️ Teknologi yang Digunakan
 
 ### Frontend
